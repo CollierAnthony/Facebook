@@ -56,7 +56,8 @@ if (isset($_SESSION['info'])) {
         if (isset($_SESSION['id'])) {
             echo "<li>Bonjour " . $_SESSION['login'] . " <a href='index.php?action=deconnexion'>Deconnexion</a></li>";
         } else {
-            echo "<li><a href='index.php?action=login'>Login</a></li>";
+            echo "<li><a href='index.php?action=login'>Connexion</a></li>
+            <li><a href='index.php?action=inscription'>Inscription</a></li>";
         }
         ?>
     </ul>

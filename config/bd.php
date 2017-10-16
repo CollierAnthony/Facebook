@@ -4,7 +4,7 @@
 
 $host = "ipabdd.iut-lens.univ-artois.fr"; // le chemin vers le serveur (localhost dans 99% des cas)
 
-$db = "claralautre";
+$db = "claralautre1";
 // A l IUT, 3 possibilité prenomnom prenomnom1...
 
 $user = "clara.lautre";

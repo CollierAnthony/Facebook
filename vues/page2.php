@@ -1,2 +1,2 @@
-Bienvenu sur la page 2 du super site.
+Bienvenue sur la page 2 du super site.
 

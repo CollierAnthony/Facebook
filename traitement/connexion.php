@@ -34,8 +34,7 @@ while($line = $query->fetch()) {
     // sinon on crée les variables de session $_SESSION['id'] et $_SESSION['login'] et on va à la page d'accueil
     
     else {
-        header('Location: traitement/inscription.php');
-        exit();
+        echo "Mot de passe ou Identifiant incorrects";
     }
 }
 
